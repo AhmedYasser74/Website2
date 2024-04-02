@@ -1,0 +1,143 @@
+#FeaturedCourses{
+
+
+text-align: center;
+margin-left: 150px;
+margin-right: 150px;
+
+
+}
+.Header{
+    font-family: 'Raleway', sans-serif;
+    color: #474747;
+    font-size: 48px;
+    margin-bottom: 25px;
+}
+.Paragraph{
+    color: #878787;
+    font-family: 'Raleway', sans-serif;
+}
+#container{
+    margin-top: 90px;
+    display: flex;
+   
+    margin-left:67px;
+  justify-content: center;
+ 
+    
+    
+}
+.element{
+    color: #474747;
+    font-size: 22px;
+    margin-right: 70px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.price {
+    border: none;
+   
+       font-size: 16px;
+       color: #fff;
+       font-weight: 600;
+       background: #d82a4e;
+    
+       padding: 13px 19px;
+       margin: 4px;
+       position: absolute;
+       left:9px;
+   }
+   .image{
+    
+    position: relative;
+   }
+.image img{
+
+    /* width: 20%;
+    height: 150px;
+    margin: 5%;  */
+ 
+    width: 320px;
+    height: 270px;
+    margin-right: 5px; /* Alternatively, set margin-right to 0 */
+    
+   
+    
+}
+#courses{
+ margin-top: 100px;
+ justify-content: center;
+    display: flex;
+ flex-wrap: wrap;
+    
+}
+.backborder{
+    margin-right: 5px;
+    border-left: 1px solid #edf4f6;
+    border-right: 1px solid #edf4f6;
+            height: 220px;
+            background-color: #edf4f6;
+     position: relative;
+     bottom: 25px;
+     
+    
+}
+.coursetitle{
+  position: relative;
+  top: 30px;
+  left: 10px;
+  font-weight: 200;
+  color: #474747;
+  font-family: 'Raleway', sans-serif;
+
+
+}
+.smallp{
+    margin-top: 45px;
+position: absolute;
+margin-right: 100px;
+top: 20px;
+left: 10px;
+color: #878787;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+}
+
+.author{
+position: relative;
+top: 65px;
+
+    border: #878787 solid 0.01ch ;
+}
+.authorimage img{
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    float: left;
+    position: relative;
+    top: 15px;
+    left: 10px;
+}
+.authordetails{
+
+
+    position: relative;
+    top: 65px;
+left: 20px;
+    
+}
+
+.authordetails span{
+
+   color: #d82a4e;;
+    position: relative;
+    left: 155px;
+    bottom: 34px; 
+
+}
+.authordetails p{
+    color: #878787;
+    justify-content: center;
+}
+
